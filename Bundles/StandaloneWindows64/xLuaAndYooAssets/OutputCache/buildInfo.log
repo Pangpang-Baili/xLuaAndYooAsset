@@ -1,0 +1,34 @@
+﻿2025-05-30 21:37:47.722 [INFO] Begin to build package : xLuaAndYooAssets by BuiltinBuildPipeline
+2025-05-30 21:37:47.723 [INFO] --------------------------------------------->TaskPrepare<--------------------------------------------
+2025-05-30 21:37:47.724 [WARN] [ErrorCode130] Starting with UnityEngine2021, recommend use script build pipeline (SBP) !
+2025-05-30 21:37:47.724 [INFO] TaskPrepare It takes 0 seconds in total
+2025-05-30 21:37:47.724 [INFO] --------------------------------------------->TaskGetBuildMap<--------------------------------------------
+2025-05-30 21:37:48.543 [INFO] TaskGetBuildMap It takes 0 seconds in total
+2025-05-30 21:37:48.543 [INFO] --------------------------------------------->TaskBuilding<--------------------------------------------
+2025-05-30 21:37:53.608 [INFO] UnityEngine build success !
+2025-05-30 21:37:53.608 [INFO] TaskBuilding It takes 5 seconds in total
+2025-05-30 21:37:53.609 [INFO] --------------------------------------------->TaskVerifyBuildResult<--------------------------------------------
+2025-05-30 21:37:53.611 [INFO] Build results verify success!
+2025-05-30 21:37:53.611 [INFO] TaskVerifyBuildResult It takes 0 seconds in total
+2025-05-30 21:37:53.611 [INFO] --------------------------------------------->TaskEncryption<--------------------------------------------
+2025-05-30 21:37:53.612 [INFO] TaskEncryption It takes 0 seconds in total
+2025-05-30 21:37:53.612 [INFO] --------------------------------------------->TaskUpdateBundleInfo<--------------------------------------------
+2025-05-30 21:37:53.620 [INFO] TaskUpdateBundleInfo It takes 0 seconds in total
+2025-05-30 21:37:53.620 [INFO] --------------------------------------------->TaskCreateManifest<--------------------------------------------
+2025-05-30 21:37:53.628 [INFO] Create package manifest file: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-05-30-1297/xLuaAndYooAssets_2025-05-30-1297.json
+2025-05-30 21:37:53.662 [INFO] Create package manifest file: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-05-30-1297/xLuaAndYooAssets_2025-05-30-1297.bytes
+2025-05-30 21:37:53.664 [INFO] Create package manifest hash file: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-05-30-1297/xLuaAndYooAssets_2025-05-30-1297.hash
+2025-05-30 21:37:53.664 [INFO] Create package manifest version file: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-05-30-1297/xLuaAndYooAssets.version
+2025-05-30 21:37:53.668 [INFO] TaskCreateManifest It takes 0 seconds in total
+2025-05-30 21:37:53.668 [INFO] --------------------------------------------->TaskCreateReport<--------------------------------------------
+2025-05-30 21:37:53.673 [INFO] Create build report file: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-05-30-1297/xLuaAndYooAssets_2025-05-30-1297.report
+2025-05-30 21:37:53.673 [INFO] TaskCreateReport It takes 0 seconds in total
+2025-05-30 21:37:53.673 [INFO] --------------------------------------------->TaskCreatePackage<--------------------------------------------
+2025-05-30 21:37:53.674 [INFO] Start making patch package: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-05-30-1297
+2025-05-30 21:37:53.679 [INFO] TaskCreatePackage It takes 0 seconds in total
+2025-05-30 21:37:53.679 [INFO] --------------------------------------------->TaskCopyBuildinFiles<--------------------------------------------
+2025-05-30 21:37:53.679 [INFO] TaskCopyBuildinFiles It takes 0 seconds in total
+2025-05-30 21:37:53.679 [INFO] --------------------------------------------->TaskCreateCatalog<--------------------------------------------
+2025-05-30 21:37:53.680 [INFO] TaskCreateCatalog It takes 0 seconds in total
+2025-05-30 21:37:53.680 [INFO] Total build process time: 5 seconds
+2025-05-30 21:37:53.680 [INFO] Resource pipeline build success

@@ -1,0 +1,88 @@
+{
+    "FileVersion": "2.3.1",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 1,
+    "BuildPipeline": "EditorSimulateBuildPipeline",
+    "PackageName": "xLuaAndYooAssets",
+    "PackageVersion": "Simulate",
+    "PackageNote": "2025/5/30 22:12:32",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/GameApp.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/Manager/UIManager.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Main.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Prefabs/Cube.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_gameresources.bundle",
+            "UnityCRC": 0,
+            "FileHash": "f6f1f59a7530fc2bb79dfc5f71472a06",
+            "FileCRC": "00000000",
+            "FileSize": 264,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_game.bundle",
+            "UnityCRC": 0,
+            "FileHash": "73324e27d242cf02f3b4d51cd2e44d1e",
+            "FileCRC": "00000000",
+            "FileSize": 207,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_game_manager.bundle",
+            "UnityCRC": 0,
+            "FileHash": "9399cc7b248a41a47a1658a7a26b927a",
+            "FileCRC": "00000000",
+            "FileSize": 41,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_prefabs.bundle",
+            "UnityCRC": 0,
+            "FileHash": "b74c0dd81cba53cda7e9c30187432215",
+            "FileCRC": "00000000",
+            "FileSize": 2810,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        }
+    ]
+}
