@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3783235820
+CRC: 1313376472
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: de14dc5d0b1d409f0745bb5f42c53ea5
+    Hash: de3b71a45bc67f3b0a4082c3a2c6988b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
@@ -14,4 +14,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/GameResources/Game/GameApp.lua.txt
+- Assets/GameResources/Game/Main.lua.txt
 Dependencies: []

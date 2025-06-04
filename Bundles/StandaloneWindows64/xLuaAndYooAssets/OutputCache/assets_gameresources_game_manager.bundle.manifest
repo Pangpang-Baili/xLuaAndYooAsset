@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3352136409
+CRC: 176199864
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2ecbf3678ae373884c1a1255a875186f
+    Hash: 745b53f9894ba81ff62ec0fdbf5ebb84
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
@@ -13,5 +13,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/GameResources/Game/Manager/ResourceManager.lua.txt
 - Assets/GameResources/Game/Manager/UIManager.lua.txt
 Dependencies: []

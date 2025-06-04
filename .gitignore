@@ -16658,3 +16658,5 @@ UnityEngine.UI.csproj
 xLuaAndYooAsset.sln
 YooAsset.csproj
 YooAsset.Editor.csproj
+Library/
+Logs/

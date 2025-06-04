@@ -29,8 +29,34 @@ MonoBehaviour:
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/GameResources
-        CollectorGUID: ffc5df417f0e27f4c82d71117db76714
+      - CollectPath: Assets/GameResources/Game
+        CollectorGUID: ecf0ec8eef4abef49af9c042defc9070
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Pefabs
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameResources/Resource/Prefabs
+        CollectorGUID: b0a830b8160c66d46a51c18b070be7f3
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Materials
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameResources/Resource/Art
+        CollectorGUID: eac529cc174dcd64dbc979d7d3c44993
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory

@@ -5,7 +5,7 @@ local CS_ResourceManager = CS.ResourceManager
 
 function EnterLoginScene()
     print("Entering game...")
-    local asset = CS_ResourceManager.Instance:LoadAsset("Resource/Prefabs/Cube.prefab")
+    local asset = CS_ResourceManager.Instance:LoadAsset("Resource/Prefabs/Scene/Cube.prefab")
     CS.UnityEngine.GameObject.Instantiate(asset)
 end
 

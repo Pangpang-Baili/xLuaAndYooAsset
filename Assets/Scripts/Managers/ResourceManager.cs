@@ -12,6 +12,7 @@ using UObject = UnityEngine.Object;
 public class ResourceManager : MonoSingleton<ResourceManager>
 {
     private ResourcePackage _defaultPackage;
+    private UILoadingForm uiLoadingForm;
     public bool isInitialized = false;
 
     protected override void Awake()
@@ -33,6 +34,10 @@ public class ResourceManager : MonoSingleton<ResourceManager>
         string packageName = "xLuaAndYooAssets";
         var package = YooAssets.CreatePackage(packageName);
         YooAssets.SetDefaultPackage(package);
+
+        uiLoadingForm = UIManager.Instance.ShowUI("UILoadingForm").GetComponent<UILoadingForm>();
+        uiLoadingForm.ShowUpdateUI();
+
         if (AppConst.PlayMode == EPlayMode.EditorSimulateMode)
         {
             //编辑器下模拟模式
@@ -193,13 +198,16 @@ public class ResourceManager : MonoSingleton<ResourceManager>
 
     private void OnDownloadFileBeginFunction(DownloadFileData downloadFileData)
     {
-        Debug.Log(
-            string.Format(
-                "开始下载：packageName: {0} 文件名：{1}，文件大小：{2}",
-                downloadFileData.PackageName,
-                downloadFileData.FileName,
-                downloadFileData.FileSize
-            )
+        string logStr = string.Format(
+            "开始下载：packageName: {0} 文件名：{1}，文件大小：{2}",
+            downloadFileData.PackageName,
+            downloadFileData.FileName,
+            downloadFileData.FileSize
+        );
+        Debug.Log(logStr);
+        uiLoadingForm.UpdateProgress(
+            logStr,
+            (float)downloadFileData.FileSize / downloadFileData.FileSize
         );
     }
 
@@ -210,6 +218,7 @@ public class ResourceManager : MonoSingleton<ResourceManager>
     {
         if (AppConst.PlayMode == EPlayMode.EditorSimulateMode)
         {
+#if UNITY_EDITOR
             string path = "Assets/GameResources/" + location;
             GameObject asset = AssetDatabase.LoadAssetAtPath<GameObject>(path);
             if (asset == null)
@@ -218,7 +227,41 @@ public class ResourceManager : MonoSingleton<ResourceManager>
                 return null;
             }
             return asset;
+#endif
         }
+        else if (AppConst.PlayMode == EPlayMode.HostPlayMode)
+        {
+            string loadPath = "Assets/GameResources/" + location;
+            AssetInfo assetInfo = YooAssets.GetAssetInfo(loadPath);
+            if (assetInfo == null)
+            {
+                Debug.LogError($"资源不存在：{loadPath}");
+                return null;
+            }
+
+            AssetHandle assetHandle = YooAssets.LoadAssetSync<GameObject>(loadPath);
+            if (assetHandle == null || !assetHandle.IsValid)
+            {
+                Debug.LogError($"加载资源失败：{loadPath}");
+                return null;
+            }
+
+            return assetHandle.AssetObject as GameObject;
+        }
+    }
+
+    public TextAsset LoadFile(string filePath)
+    {
+        string loadPath = "Assets/GameResources/Game/" + filePath;
+        Debug.Log($"加载文件路径：{loadPath}");
+        var rawFileHandle = YooAssets.LoadAssetSync<TextAsset>(loadPath);
+        if (rawFileHandle == null)
+        {
+            Debug.Log($"加载文件失败：{loadPath}");
+            return null;
+        }
+
+        return rawFileHandle.AssetObject as TextAsset;
     }
     #endregion
 }

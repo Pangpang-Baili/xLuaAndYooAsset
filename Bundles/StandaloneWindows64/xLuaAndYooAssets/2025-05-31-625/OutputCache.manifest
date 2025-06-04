@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2724236794
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_gameresources_game.bundle
+      Dependencies: {}
+    Info_1:
+      Name: assets_gameresources_game_manager.bundle
+      Dependencies: {}
+    Info_2:
+      Name: assets_gameresources_resource_prefabs.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_materials.bundle
+    Info_3:
+      Name: assets_gameresources_resource_prefabs_ui.bundle
+      Dependencies: {}
+    Info_4:
+      Name: assets_gameresources_resource_art_materials.bundle
+      Dependencies: {}

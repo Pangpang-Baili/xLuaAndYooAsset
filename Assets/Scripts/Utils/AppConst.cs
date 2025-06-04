@@ -5,6 +5,6 @@ using YooAsset;
 
 public class AppConst
 {
-    public const string HOSTSERVERPATH = "http://10.0.0.20/YooAsset/StandaloneWindows64";
-    public const EPlayMode PlayMode = EPlayMode.EditorSimulateMode;
+    public const string HOSTSERVERPATH = "http://192.168.10.10/Resourece/";
+    public const EPlayMode PlayMode = EPlayMode.HostPlayMode;
 }
