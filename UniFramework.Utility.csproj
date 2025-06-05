@@ -45,14 +45,14 @@
     <Analyzer Include="C:\Users\22445\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\StringConvert.cs" />
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\BitMask32.cs" />
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\UniTimer.cs" />
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\StringFormat.cs" />
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\BitMask64.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniUtility\Runtime\StringConvert.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniUtility\Runtime\UniTimer.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniUtility\Runtime\StringFormat.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniUtility\Runtime\BitMask32.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniUtility\Runtime\BitMask64.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniUtility\Runtime\UniFramework.Utility.asmdef" />
+    <None Include="Assets\ThirdParty\UniFramework\UniUtility\Runtime\UniFramework.Utility.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

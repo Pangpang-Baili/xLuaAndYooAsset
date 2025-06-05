@@ -45,14 +45,14 @@
     <Analyzer Include="C:\Users\22445\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\UniEvent.cs" />
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\UniEventDriver.cs" />
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\IEventMessage.cs" />
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\UniLogger.cs" />
-    <Compile Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\EventGroup.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniEvent\Runtime\UniEventDriver.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniEvent\Runtime\UniEvent.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniEvent\Runtime\IEventMessage.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniEvent\Runtime\UniLogger.cs" />
+    <Compile Include="Assets\ThirdParty\UniFramework\UniEvent\Runtime\EventGroup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Samples\YooAsset\2.3.9\Space Shooter\ThirdParty\UniFramework\UniEvent\Runtime\UniFramework.Event.asmdef" />
+    <None Include="Assets\ThirdParty\UniFramework\UniEvent\Runtime\UniFramework.Event.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
