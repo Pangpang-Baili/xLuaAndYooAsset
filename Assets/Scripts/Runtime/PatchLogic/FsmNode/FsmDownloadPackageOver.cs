@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using UniFramework.Machine;
 using UnityEngine;
 
-public class FsmDownloadPackageOver : MonoBehaviour
+public class FsmDownloadPackageOver : IStateNode
 {
-    // Start is called before the first frame update
-    void Start()
+    private StateMachine _machine;
+    public void OnCreate(StateMachine machine)
     {
-        
+        _machine = machine;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnEnter()
     {
-        
+        PatchEventDefine.PatchStepChange.SendEventMessage("资源文件下载完毕！");
+        _machine.ChangeState<FsmClearCacheBundle>();
     }
+
+    public void OnExit()
+    {
+
+    }
+
+    public void OnUpdate()
+    {
+
+    }
+
 }

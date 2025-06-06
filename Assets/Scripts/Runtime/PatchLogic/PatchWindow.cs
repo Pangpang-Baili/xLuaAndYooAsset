@@ -62,6 +62,14 @@ public class PatchWindow : MonoBehaviour
         _tips.text = "Initializing the game world !";
         _messageBoxObj = transform.Find("UIWindow/MessgeBox").gameObject;
         _messageBoxObj.SetActive(false);
+
+        _eventGroup.AddListener<PatchEventDefine.InitializeFailed>(OnHandleEventMessage);
+        _eventGroup.AddListener<PatchEventDefine.PatchStepChange>(OnHandleEventMessage);
+        _eventGroup.AddListener<PatchEventDefine.FoundUpdateFiles>(OnHandleEventMessage);
+        _eventGroup.AddListener<PatchEventDefine.DownloadUpdate>(OnHandleEventMessage);
+        _eventGroup.AddListener<PatchEventDefine.PackageVersionRequestFailed>(OnHandleEventMessage);
+        _eventGroup.AddListener<PatchEventDefine.PackageManifestUpdateFailed>(OnHandleEventMessage);
+        _eventGroup.AddListener<PatchEventDefine.WebFileDownloadFailed>(OnHandleEventMessage);
     }
 
     void OnDestroy()
@@ -75,7 +83,7 @@ public class PatchWindow : MonoBehaviour
         {
             System.Action callback = () =>
             {
-                UserEventDefine.UserTryInitailize.SendEventMessage();
+                UserEventDefine.UserTryInitialize.SendEventMessage();
             };
             ShowMessageBox($"Failed to initialize package !", callback);
         }
@@ -84,6 +92,55 @@ public class PatchWindow : MonoBehaviour
             var msg = message as PatchEventDefine.PatchStepChange;
             _tips.text = msg.Tips;
             Debug.Log(msg.Tips);
+        }
+        else if (message is PatchEventDefine.FoundUpdateFiles)
+        {
+            var msg = message as PatchEventDefine.FoundUpdateFiles;
+            System.Action callback = () =>
+            {
+                UserEventDefine.UserBeginDownloadWebFiles.SendEventMessage();
+            };
+            float sizeMB = msg.TotalSizeBytes / 1048576f;
+            sizeMB = Mathf.Clamp(sizeMB, 0.1f, float.MaxValue);
+            string totalSizeMB = sizeMB.ToString("f1");
+            ShowMessageBox($"Found Update path files, Total count {msg.TotalCount}  Total size {totalSizeMB} MB", callback);
+        }
+        else if (message is PatchEventDefine.DownloadUpdate)
+        {
+            var msg = message as PatchEventDefine.DownloadUpdate;
+            _slider.value = (float)msg.CurrentDownloadCount / msg.TotalDownloadCount;
+            string currentSizeMB = (msg.CurrentDownloadSizeBytes / 1048576f).ToString("f1");
+            string totalSizeMB = (msg.TotalDownladSizeBytes / 1048576f).ToString("f1");
+            _tips.text = $"{msg.CurrentDownloadCount}/{msg.TotalDownloadCount} {currentSizeMB}MB/{totalSizeMB}MB";
+        }
+        else if (message is PatchEventDefine.PackageVersionRequestFailed)
+        {
+            System.Action callback = () =>
+            {
+                UserEventDefine.UserTryRequestPackageVersion.SendEventMessage();
+            };
+            ShowMessageBox($"Failed to request package version, please check the network status.", callback);
+        }
+        else if (message is PatchEventDefine.PackageManifestUpdateFailed)
+        {
+            System.Action callback = () =>
+            {
+                UserEventDefine.UserTryUpdatePackageManifest.SendEventMessage();
+            };
+            ShowMessageBox($"Failed to update patch manifest, please check the network status.", callback);
+        }
+        else if (message is PatchEventDefine.WebFileDownloadFailed)
+        {
+            var msg = message as PatchEventDefine.WebFileDownloadFailed;
+            System.Action callback = () =>
+            {
+                UserEventDefine.UserTryDownloadWebFiles.SendEventMessage();
+            };
+            ShowMessageBox($"Failed to download file : {msg.FileName}", callback);
+        }
+        else
+        {
+            throw new System.NotImplementedException($"{message.GetType()}");
         }
     }
 

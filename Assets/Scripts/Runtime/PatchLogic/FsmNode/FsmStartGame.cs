@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using UniFramework.Machine;
 using UnityEngine;
 
-public class FsmStartGame : MonoBehaviour
+public class FsmStartGame : IStateNode
 {
-    // Start is called before the first frame update
-    void Start()
+    private PatchOperation _owner;
+    public void OnCreate(StateMachine machine)
     {
-        
+        _owner = machine.Owner as PatchOperation;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnEnter()
     {
-        
+        PatchEventDefine.PatchStepChange.SendEventMessage("开始游戏！");
+        _owner.SetFinish();
     }
+
+    public void OnExit()
+    {
+
+    }
+
+    public void OnUpdate()
+    {
+
+    }
+
 }
