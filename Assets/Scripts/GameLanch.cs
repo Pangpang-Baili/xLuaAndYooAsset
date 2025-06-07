@@ -15,9 +15,6 @@ public class GameLanch : MonoSingleton<GameLanch>
         Application.targetFrameRate = 60;
         Application.runInBackground = true;
         DontDestroyOnLoad(this.gameObject);
-
-        // this.gameObject.AddComponent<xLuaManager>();
-        // this.gameObject.AddComponent<ResourceManager>();
     }
 
     IEnumerator Start()
@@ -34,11 +31,11 @@ public class GameLanch : MonoSingleton<GameLanch>
         var go = Resources.Load<GameObject>("PatchWindow");
         GameObject.Instantiate(go);
 
-        var operation = new PatchOperation("DefaultPackage", PlayMode);
+        var operation = new PatchOperation("xLuaAndYooAssets", PlayMode);
         YooAssets.StartOperation(operation);
         yield return operation;
 
-        var gamePackage = YooAssets.GetPackage("DefaultPackage");
+        var gamePackage = YooAssets.GetPackage("xLuaAndYooAssets");
         YooAssets.SetDefaultPackage(gamePackage);
     }
 

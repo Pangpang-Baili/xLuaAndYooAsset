@@ -37,26 +37,89 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
-    - GroupName: Pefabs
+    - GroupName: Materials
       GroupDesc: 
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/GameResources/Resource/Prefabs
-        CollectorGUID: b0a830b8160c66d46a51c18b070be7f3
+      - CollectPath: Assets/GameResources/Resource/Art/Materials
+        CollectorGUID: 70df332fc307d9f41822b4402c99a85d
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
-    - GroupName: Materials
+    - GroupName: Models
       GroupDesc: 
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/GameResources/Resource/Art
-        CollectorGUID: eac529cc174dcd64dbc979d7d3c44993
+      - CollectPath: Assets/GameResources/Resource/Art/Models
+        CollectorGUID: 516f7d34869dd794088795005a40731c
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Prefabs
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameResources/Resource/Art/Prefabs
+        CollectorGUID: 2e23e49d68ae4604e9cb4ecad29e5175
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Textures
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameResources/Resource/Art/Textures
+        CollectorGUID: e03274c2655a5a246bf798b0bd4f53b3
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: UI
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameResources/Resource/UISprite/atlas_icon
+        CollectorGUID: 5fac54b722786ad4ead1a636d5057b7e
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameResources/Resource/UISpriteAtlas
+        CollectorGUID: 4780037d8571e78448f8a5c140e3c7d4
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameResources/Resource/UIPanelArt
+        CollectorGUID: 1afee5d322b2eb046b613545a9cb0684
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameResources/Resource/UIFont
+        CollectorGUID: 708a05274dca1574bb16e462da05d6a5
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory

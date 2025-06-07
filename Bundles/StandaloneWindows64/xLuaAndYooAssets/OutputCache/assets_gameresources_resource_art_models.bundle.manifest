@@ -1,0 +1,192 @@
+ManifestFileVersion: 0
+CRC: 3812133996
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: caf5c604c2175e12bc7016b81d6e4e6c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 81fc4833398717ae320ec5bd08c661f4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Models/SM_Env_Dock_Poles_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Bottle_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Wep_Rifle_Assault_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Port_Concrete_Slab_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Boat_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_Tent_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Container_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Generator_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Car_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Barrier_04.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Crate_Large_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_MedicalBox_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Wep_Rifle_Assault_04.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Propane_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Bike_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Truck_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Grass_Circle_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Bush_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Port_Wall_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Armored_Car_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Truck_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_GuardTower_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Pallet_Loaded_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_TreeDead_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Concrete_Base_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_RadioTower_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Can_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Transformer_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Slatbox_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Cloud_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Papers_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_Damaged_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_SmallBuilding_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Road_Corner_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Crate_Small_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_EmergencyDrop_Crate_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Mountains_Soft_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Iron_Sheet_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_AmmoBox_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Cloud_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Armored_Car_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Tank_Russia_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Pile_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Dock_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Bush_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_Tent_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Pallet_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_SmallBuilding_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Iron_Sheet_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Barrier_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Iron_Sheet_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_WireFence_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Buggy_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Beach_Staight_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Cinderblock_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Needle_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_SmallBuilding_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Beach_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_Window_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Cloud_04.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Tire_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_BaseWall_Broken_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_Damaged_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Car_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Barricade_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Tree_04.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Gauze_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Bridge_Support_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_WoodPlank_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Gerneric_Grass_Patch_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Papers_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Beach_Staight_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Port_Wall_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_WireFence_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Wep_Pistol_Heavy_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Road_T_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Tree_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Light_Armored_Car_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Grass_Square_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Crate_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_WoodenShack_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rock_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_Warehouse_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Pebbles_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Trable_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Portaloo_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_BaseWall_Post_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Can_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Tank_USA_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Bridge_Broken_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_BunkBed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_Half_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Target_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Gerneric_Grass_Patch_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Pallet_Loaded_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Benchpress_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Mountains_Grass_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Barrel_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Wep_Rifle_Assault_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_TreeStump_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Wep_Pan_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Wep_Sniper_Heavy_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Port_Wall_Corner_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_House_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_BaseWall_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rock_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_DirtRoad_End_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_House_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Grass_Circle_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Pills_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Plank_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Light_Car_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_End_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Plane_Destroyed_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Small_Rocks_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Bridge_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Wep_Rifle_Assault_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Crate_Medical_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Buggy_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Plank_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Cloud_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_Post_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Car_Clean_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Barrier_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Port_Boat_Tie_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Bush_04.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Bld_House_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Bush_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Pebbles_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Bridge_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Tree_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Tank_USA_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Tree_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Small_Rocks_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_DirtRoad_Straight_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Barrel_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Veh_Bike_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Container_Small_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Pile_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Generic_Mountains_Grass_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Papers_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Paper_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_Door_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_TankTrap_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Barrier_Dirt_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Bandage_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Paper_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Wirespool_02.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_MissileStack_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Wep_Grenade_Launcher_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Wirespool_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_TireStack_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_Damaged_03.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_BaseWall_Broken_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_PalletStack_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Propane_Tall_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Spotlight_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Prop_Cinderblock_Wall_01.fbx
+- Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Plank_01.fbx
+Dependencies: []

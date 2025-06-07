@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1475115231
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dedc0b8d7cc3286b623c40b22d6f66c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 85c30133173216d26d76f371b5f3ba42
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/UIPanelArt/UIBgEffect.anim
+- Assets/GameResources/Resource/UIPanelArt/LOGO.png
+- Assets/GameResources/Resource/UIPanelArt/Space.jpg
+- Assets/GameResources/Resource/UIPanelArt/UIBgEffect.controller
+Dependencies: []

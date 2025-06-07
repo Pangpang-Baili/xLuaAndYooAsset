@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 1509693157
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 906e1bb1ddc41d6c85875a63882e61e5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 81fc4833398717ae320ec5bd08c661f4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Boat_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Truck_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Armored_Car_Destroyed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Light_Car_Destroyed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Tank_USA_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Buggy_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Truck_Destroyed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Car_Clean_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Bike_Destroyed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Buggy_Destroyed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Armored_Car_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Tank_USA_Destroyed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Car_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Car_Destroyed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Tank_Russia_Destroyed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Bike_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Light_Armored_Car_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Plane_Destroyed_01.prefab
+Dependencies:
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials_alts.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_models.bundle

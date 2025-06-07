@@ -62,8 +62,8 @@ public class FsmInitializePackage : IStateNode
             string fallbackHostServer = GetHostServerURL(packageName);
             IRemoteServices remoteServices = new RemoteServices(defaultHostServer, fallbackHostServer);
             var initParameters = new HostPlayModeParameters();
-            initParameters.BuildinFileSystemParameters = FileSystemParameters.CreateDefaultBuildinFileSystemParameters(); ;
-            initParameters.CacheFileSystemParameters = FileSystemParameters.CreateDefaultCacheFileSystemParameters(remoteServices); ;
+            initParameters.BuildinFileSystemParameters = FileSystemParameters.CreateDefaultBuildinFileSystemParameters();
+            initParameters.CacheFileSystemParameters = FileSystemParameters.CreateDefaultCacheFileSystemParameters(remoteServices);
             initializationOperation = package.InitializeAsync(initParameters);
         }
         yield return initializationOperation;
@@ -81,7 +81,7 @@ public class FsmInitializePackage : IStateNode
 
     private string GetHostServerURL(string packageName)
     {
-        return $"http://192.168.10.10/Resourece/{packageName}";
+        return $"http://10.0.0.20/YooAsset/{packageName}";
     }
 
     /// <summary>

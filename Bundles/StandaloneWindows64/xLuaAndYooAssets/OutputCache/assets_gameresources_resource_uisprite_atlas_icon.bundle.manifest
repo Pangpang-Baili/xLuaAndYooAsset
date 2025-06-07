@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 737548045
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e0f19b00a091646748b5d2b1717816ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/UISprite/atlas_icon/rocket.png
+- Assets/GameResources/Resource/UISprite/atlas_icon/bullet.png
+- Assets/GameResources/Resource/UISprite/atlas_icon/pause.png
+Dependencies: []

@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 4093089782
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: df5136db9d26afc26c6d40dad4634012
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71fae6ce9612b55492988b7c6597434c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_House_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_House_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_SmallBuilding_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_SmallBuilding_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_Warehouse_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_House_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_Tent_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_WoodenShack_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_SmallBuilding_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_Tent_02.prefab
+Dependencies:
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_models.bundle

@@ -1,19 +1,30 @@
 ManifestFileVersion: 0
-CRC: 3826788077
+CRC: 2935935644
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ddfd8bc06b5bbedbed158de626ff66e3
+    Hash: 245922609d791a433622799f9f870508
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1397ad235555a4f37791d5b3ff19e7a7
+    Hash: 16c36b7b3350fad15821c42f96c32ccb
 HashAppended: 0
 ClassTypes:
 - Class: 21
+  Script: {instanceID: 0}
+- Class: 28
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/GameResources/Resource/Art/Materials/Cube.mat
-Dependencies: []
+- Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_01_A.mat
+- Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_Wep_01.mat
+- Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_Road.mat
+- Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_02_A.mat
+- Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_Veh_01.mat
+- Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_Glass.mat
+- Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_04_A.mat
+- Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_03_A.mat
+Dependencies:
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_textures.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_textures_weapons.bundle

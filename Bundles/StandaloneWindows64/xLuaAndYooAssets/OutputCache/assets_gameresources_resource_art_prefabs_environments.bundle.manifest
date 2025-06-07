@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 1709435334
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0eeed29519fe66416e89a1575b2f2798
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71fae6ce9612b55492988b7c6597434c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rock_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_Broken_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Dock_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Circle_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_Staight_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Corner_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pebbles_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_DirtRoad_Straight_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rock_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Boat_Tie_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_Support_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_Staight_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_DirtRoad_End_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Circle_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Square_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Dock_Poles_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Concrete_Slab_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pebbles_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pile_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_T_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pile_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Concrete_Base_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_End_01.prefab
+Dependencies:
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_models.bundle

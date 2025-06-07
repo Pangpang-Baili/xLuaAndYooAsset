@@ -1,0 +1,3920 @@
+{
+    "FileVersion": "2.3.1",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 2,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "xLuaAndYooAssets",
+    "PackageVersion": "2025-06-07-860",
+    "PackageNote": "2025/6/7 14:20:14",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/GameApp.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/Main.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/Manager/ResourceManager.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/Manager/UIManager.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/Alts/PolygonBattleRoyale_Veh_02.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/Alts/PolygonBattleRoyale_Veh_06.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/Alts/PolygonBattleRoyale_Veh_Destroyed_01.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/Alts/PolygonBattleRoyale_Veh_Glass.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/Alts/PolygonBattleRoyale_Veh_Plane_Destroyed_01.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/Alts/PolygonBattleRoyale_Veh_Tank_Tracks.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/Alts/PolygonBattleRoyale_WireFence.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/FX/PolygonBattleRoyale_FX_Emmision.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/FX/PolygonBattleRoyale_Water.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_01_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_02_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_03_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_04_A.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_Glass.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_Road.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_Veh_01.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Materials/PolygonBattleRoyale_Wep_01.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": [
+                13
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_House_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_House_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_House_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_SmallBuilding_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_SmallBuilding_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_SmallBuilding_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_Tent_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_Tent_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_Warehouse_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Bld_WoodenShack_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Beach_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Beach_Staight_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Beach_Staight_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Bridge_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Bridge_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Bridge_Broken_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Bridge_Support_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Bush_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Bush_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Bush_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Bush_04.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Concrete_Base_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_DirtRoad_End_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_DirtRoad_Straight_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Dock_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Dock_Poles_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Grass_Circle_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Grass_Circle_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Grass_Square_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Port_Boat_Tie_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Port_Concrete_Slab_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Port_Wall_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Port_Wall_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Port_Wall_Corner_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Road_Corner_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_Damaged_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_Damaged_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_Damaged_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Road_Straight_End_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Road_T_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rock_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rock_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Pebbles_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Pebbles_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Pile_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Pile_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Plank_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Plank_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Env_Rubble_Plank_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Cloud_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Cloud_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Cloud_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Cloud_04.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Mountains_Grass_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Mountains_Grass_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Mountains_Soft_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Small_Rocks_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Small_Rocks_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Tree_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Tree_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Tree_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_Tree_04.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_TreeDead_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Generic_TreeStump_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Gerneric_Grass_Patch_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Gerneric_Grass_Patch_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_AmmoBox_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Bandage_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Barrel_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Barrel_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Barricade_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Barrier_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Barrier_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Barrier_04.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Barrier_Dirt_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_BaseWall_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_BaseWall_Broken_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_BaseWall_Broken_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_BaseWall_Post_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Benchpress_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_BunkBed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Cinderblock_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Cinderblock_Wall_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Container_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Container_Small_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Crate_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Crate_Large_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Crate_Medical_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Crate_Small_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_EmergencyDrop_Crate_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Gauze_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Generator_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_GuardTower_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Iron_Sheet_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Iron_Sheet_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Iron_Sheet_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_MedicalBox_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_MissileStack_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Needle_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Pallet_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Pallet_Loaded_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Pallet_Loaded_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_PalletStack_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Pills_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Portaloo_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Propane_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Propane_Tall_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_RadioTower_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Trable_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_Door_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_Half_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_Post_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Range_Wall_Window_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Bottle_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Can_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Can_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Paper_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Paper_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Papers_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Papers_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Rubbish_Papers_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Slatbox_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Spotlight_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_TankTrap_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Target_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Tire_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_TireStack_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Transformer_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_WireFence_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_WireFence_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Wirespool_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_Wirespool_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Prop_WoodPlank_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Armored_Car_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Armored_Car_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Bike_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Bike_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Boat_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Buggy_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Buggy_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Car_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Car_Clean_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Car_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Light_Armored_Car_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Light_Car_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Plane_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Tank_Russia_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Tank_USA_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Tank_USA_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Truck_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Veh_Truck_Destroyed_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Wep_Grenade_Launcher_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Wep_Pan_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Wep_Pistol_Heavy_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Wep_Rifle_Assault_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Wep_Rifle_Assault_02.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Wep_Rifle_Assault_03.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Wep_Rifle_Assault_04.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Models/SM_Wep_Sniper_Heavy_01.fbx",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_House_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_House_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_House_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_SmallBuilding_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_SmallBuilding_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_SmallBuilding_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_Tent_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_Tent_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_Warehouse_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Buildings/SM_Bld_WoodenShack_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_Staight_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_Staight_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_Broken_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_Support_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Concrete_Base_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_DirtRoad_End_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_DirtRoad_Straight_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Dock_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Dock_Poles_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Circle_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Circle_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Square_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Boat_Tie_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Concrete_Slab_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Corner_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_End_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_T_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rock_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rock_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pebbles_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pebbles_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pile_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pile_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Env_Bush_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Env_Bush_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Env_Bush_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Env_Bush_04.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Cloud_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Cloud_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Cloud_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Cloud_04.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Grass_Patch_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Grass_Patch_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Mountains_Grass_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Mountains_Grass_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Mountains_Soft_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Small_Rocks_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Small_Rocks_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Tree_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Tree_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Tree_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_Tree_04.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_TreeDead_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Generic/SM_Generic_TreeStump_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_AmmoBox_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Bandage_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrel_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrel_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barricade_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrier_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrier_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrier_04.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrier_Dirt_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BaseWall_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BaseWall_Broken_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BaseWall_Broken_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BaseWall_Post_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Benchpress_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BunkBed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Cinderblock_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Cinderblock_Wall_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Container_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Container_Small_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Crate_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Crate_Large_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Crate_Medical_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Crate_Small_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_EmergencyDrop_Crate_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Gauze_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Generator_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_GuardTower_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Iron_Sheet_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Iron_Sheet_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Iron_Sheet_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_MedicalBox_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_MissileStack_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Needle_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Pallet_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Pallet_Loaded_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Pallet_Loaded_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_PalletStack_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Pills_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Portaloo_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Propane_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Propane_Tall_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_RadioTower_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Trable_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_Door_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_Half_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_Post_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_Window_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Bottle_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Can_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Can_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Paper_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Paper_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Papers_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Papers_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Papers_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Slatbox_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Spotlight_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_TankTrap_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Target_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Tire_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_TireStack_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Transformer_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_WireFence_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_WireFence_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Wirespool_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Wirespool_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_WoodPlank_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Armored_Car_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Armored_Car_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Bike_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Bike_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Boat_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Buggy_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Buggy_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Car_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Car_Clean_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Car_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Light_Armored_Car_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Light_Car_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Plane_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Tank_Russia_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Tank_USA_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Tank_USA_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Truck_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Vehicles/SM_Veh_Truck_Destroyed_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10,
+            "DependBundleIDs": [
+                3,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Grenade_Launcher_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependBundleIDs": [
+                2,
+                5,
+                13
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Pan_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependBundleIDs": [
+                2,
+                5,
+                12
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Pistol_Heavy_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependBundleIDs": [
+                2,
+                5,
+                13
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Rifle_Assault_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependBundleIDs": [
+                2,
+                5,
+                13
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Rifle_Assault_02.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependBundleIDs": [
+                2,
+                5,
+                13
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependBundleIDs": [
+                2,
+                5,
+                13
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Rifle_Assault_04.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependBundleIDs": [
+                2,
+                5,
+                13
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Sniper_Heavy_01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11,
+            "DependBundleIDs": [
+                2,
+                5,
+                13
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Fence_Alpha.tga",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Plane_01_Damaged.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Road_01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Road_Normal.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Tank_Tracks.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Texture_01_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Texture_02_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Texture_03_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Texture_04_A.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_01_Damaged.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_01_Emmision.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_02.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_06.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/Art/Textures/Weapons/Wep_Skin_01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UIFont/LICENSE.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UIFont/RobotoCondensed-Bold.ttf",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UIPanelArt/LOGO.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UIPanelArt/Space.jpg",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UIPanelArt/UIBgEffect.anim",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UIPanelArt/UIBgEffect.controller",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UISprite/atlas_icon/bullet.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UISprite/atlas_icon/pause.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UISprite/atlas_icon/rocket.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 16,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Resource/UISpriteAtlas/atlas_icon.spriteatlas",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 17,
+            "DependBundleIDs": [
+                16
+            ]
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_gameresources_game.bundle",
+            "UnityCRC": 3886665520,
+            "FileHash": "93dd7b570c4ed139a1f5a9f9bf5ab321",
+            "FileCRC": "febc1459",
+            "FileSize": 1649,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_game_manager.bundle",
+            "UnityCRC": 1745696903,
+            "FileHash": "a59d6b0842c73c8fbfdf2dc5824b5864",
+            "FileCRC": "1bb83133",
+            "FileSize": 1839,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_materials.bundle",
+            "UnityCRC": 2935935644,
+            "FileHash": "fe7d21761c462eb9d981c17dd5b82a22",
+            "FileCRC": "11ccbb72",
+            "FileSize": 62797,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                12,
+                13
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_materials_alts.bundle",
+            "UnityCRC": 1680560886,
+            "FileHash": "dad4150d244d386f5d2acedda6abd7a7",
+            "FileCRC": "02e86272",
+            "FileSize": 57480,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                12
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_materials_fx.bundle",
+            "UnityCRC": 2093812050,
+            "FileHash": "86ff25e04b13f4058fc36b1f5253cdaf",
+            "FileCRC": "1c095e82",
+            "FileSize": 53322,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_models.bundle",
+            "UnityCRC": 3812133996,
+            "FileHash": "bf4e2d3c0932faf4eef28baddbe1e075",
+            "FileCRC": "da4bc4b4",
+            "FileSize": 5030319,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_prefabs_buildings.bundle",
+            "UnityCRC": 4093089782,
+            "FileHash": "9ca3d8c279c5567f9bb38e5b5628f8ff",
+            "FileCRC": "0194d638",
+            "FileSize": 6804,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                2,
+                5,
+                12,
+                13
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_prefabs_environments.bundle",
+            "UnityCRC": 1709435334,
+            "FileHash": "50c91185e0adb8fae99e8bebc32dfee9",
+            "FileCRC": "2d80b43c",
+            "FileSize": 9849,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                2,
+                5,
+                12,
+                13
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_prefabs_generic.bundle",
+            "UnityCRC": 3667280381,
+            "FileHash": "4a25f32cd91830be0ef761f4f1a332c2",
+            "FileCRC": "61ec0e37",
+            "FileSize": 5598,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                2,
+                5,
+                12,
+                13
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_prefabs_props.bundle",
+            "UnityCRC": 937975256,
+            "FileHash": "8c488ee6548bef506c179da9c1721e1d",
+            "FileCRC": "e5fd8f3e",
+            "FileSize": 14172,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12,
+                13
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_prefabs_vehicles.bundle",
+            "UnityCRC": 1509693157,
+            "FileHash": "a5ef6f895fb3f5b40c4022f47255f928",
+            "FileCRC": "425089da",
+            "FileSize": 69606,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                2,
+                3,
+                5,
+                12,
+                13
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_prefabs_weapons.bundle",
+            "UnityCRC": 3294538777,
+            "FileHash": "f4d81565d2ba9bc8dfa3f62251192e3b",
+            "FileCRC": "8fe368b6",
+            "FileSize": 9716,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                2,
+                5,
+                12,
+                13
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_textures.bundle",
+            "UnityCRC": 1390689109,
+            "FileHash": "b6febd32bf7136bd2fc355e9d2c30d23",
+            "FileCRC": "21710d12",
+            "FileSize": 2397555,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_art_textures_weapons.bundle",
+            "UnityCRC": 3905667722,
+            "FileHash": "d7ef56a673e805e3fcf65f98b0f283bc",
+            "FileCRC": "9edda93b",
+            "FileSize": 6916,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_uifont.bundle",
+            "UnityCRC": 3974168352,
+            "FileHash": "4ea8d19cc645d5ae508bb88fd673d29a",
+            "FileCRC": "598572a5",
+            "FileSize": 109624,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_uipanelart.bundle",
+            "UnityCRC": 1475115231,
+            "FileHash": "e370c8f8f9b75fa8ea27d6b7cf3e03bc",
+            "FileCRC": "9e25929f",
+            "FileSize": 1512093,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_uisprite_atlas_icon.bundle",
+            "UnityCRC": 737548045,
+            "FileHash": "076784b53fe18039b2b8aa2ac825cef3",
+            "FileCRC": "f0b7c1f0",
+            "FileSize": 404642,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_resource_uispriteatlas.bundle",
+            "UnityCRC": 3382070724,
+            "FileHash": "50be42f7ff58c52ce4271531561ad8b3",
+            "FileCRC": "9d0a04a9",
+            "FileSize": 2090,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                16
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1390689109
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ae93df162def05eabb859950846b20fd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Road_Normal.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Texture_01_A.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Road_01.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_02.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Fence_Alpha.tga
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Texture_03_A.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Texture_04_A.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_01_Damaged.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_06.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Texture_02_A.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Plane_01_Damaged.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_01.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Tank_Tracks.png
+- Assets/GameResources/Resource/Art/Textures/PolygonBattleRoyale_Vehicles_01_Emmision.png
+Dependencies: []
