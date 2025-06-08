@@ -56,6 +56,7 @@ public class FsmInitializePackage : IStateNode
             initializationOperation = package.InitializeAsync(createParameters);
         }
 
+        // 联机运行模式
         if (playMode == EPlayMode.HostPlayMode)
         {
             string defaultHostServer = GetHostServerURL(packageName);
@@ -81,7 +82,7 @@ public class FsmInitializePackage : IStateNode
 
     private string GetHostServerURL(string packageName)
     {
-        return $"http://10.0.0.20/YooAsset/{packageName}";
+        return $"http://192.168.10.9/Resourece/{packageName}";
     }
 
     /// <summary>

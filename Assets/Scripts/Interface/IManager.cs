@@ -1,0 +1,5 @@
+
+interface IManager
+{
+    void Init();
+}

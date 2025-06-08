@@ -6,6 +6,7 @@ using YooAsset;
 
 public class GameLanch : MonoSingleton<GameLanch>
 {
+    private List<IManager> _managers = new List<IManager>();
     public EPlayMode PlayMode = EPlayMode.EditorSimulateMode;
     protected override void Awake()
     {
@@ -37,19 +38,23 @@ public class GameLanch : MonoSingleton<GameLanch>
 
         var gamePackage = YooAssets.GetPackage("xLuaAndYooAssets");
         YooAssets.SetDefaultPackage(gamePackage);
+
+        ModelInit();
     }
 
-    // IEnumerator GameStart()
-    // {
-    //     yield return this.StartCoroutine(checkHotUpdate());
-    //     xLuaManager.Instance.EnterGame();
-    // }
+    private void ModelInit()
+    {
+        _managers.Add(GameManager.Instance);
+        _managers.Add(ResourceManager.Instance);
+        _managers.Add(SceneManager.Instance);
 
-    // IEnumerator checkHotUpdate()
-    // {
-    //     while (!ResourceManager.Instance.isInitialized)
-    //     {
-    //         yield return null;
-    //     }
-    // }
+        foreach (var manager in _managers)
+        {
+            manager.Init();
+        }
+
+        SceneEventDefine.ChangeScene.SendEventMessage("MainScene");
+    }
+
+
 }

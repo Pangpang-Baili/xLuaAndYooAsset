@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonoSingleton<T> : MonoBehaviour
+public class MonoSingleton<T> : MonoBehaviour, IManager
     where T : Component
 {
     private static T _instance;
@@ -23,6 +23,11 @@ public class MonoSingleton<T> : MonoBehaviour
             }
             return _instance;
         }
+    }
+
+    public void Init()
+    {
+
     }
 
     protected virtual void Awake()

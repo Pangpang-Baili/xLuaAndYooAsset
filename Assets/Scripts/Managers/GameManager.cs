@@ -3,20 +3,8 @@ using System.Collections.Generic;
 using UniFramework.Event;
 using UnityEngine;
 
-public class GameManager
+public class GameManager : MonoSingleton<GameManager>
 {
-
-    private static GameManager _instance;
-    public static GameManager Instance
-    {
-        get
-        {
-            if (_instance == null)
-                _instance = new GameManager();
-            return _instance;
-        }
-    }
-
     private readonly EventGroup _eventGroup = new EventGroup();
 
     /// <summary>
@@ -35,7 +23,7 @@ public class GameManager
     /// <summary>
     /// 开启一个协程
     /// </summary>
-    public void StartCoroutine(IEnumerator enumerator)
+    public new void StartCoroutine(IEnumerator enumerator)
     {
         Behaviour.StartCoroutine(enumerator);
     }

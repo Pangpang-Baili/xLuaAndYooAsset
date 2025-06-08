@@ -60,7 +60,7 @@ public class PatchWindow : MonoBehaviour
         _slider = transform.Find("UIWindow/Slider").GetComponent<Slider>();
         _tips = transform.Find("UIWindow/Slider/txt_tips").GetComponent<Text>();
         _tips.text = "Initializing the game world !";
-        _messageBoxObj = transform.Find("UIWindow/MessgeBox").gameObject;
+        _messageBoxObj = transform.Find("UIWindow/MessageBox").gameObject;
         _messageBoxObj.SetActive(false);
 
         _eventGroup.AddListener<PatchEventDefine.InitializeFailed>(OnHandleEventMessage);
@@ -103,7 +103,10 @@ public class PatchWindow : MonoBehaviour
             float sizeMB = msg.TotalSizeBytes / 1048576f;
             sizeMB = Mathf.Clamp(sizeMB, 0.1f, float.MaxValue);
             string totalSizeMB = sizeMB.ToString("f1");
-            ShowMessageBox($"Found Update path files, Total count {msg.TotalCount}  Total size {totalSizeMB} MB", callback);
+            ShowMessageBox(
+                $"Found Update path files, Total count {msg.TotalCount}  Total size {totalSizeMB} MB",
+                callback
+            );
         }
         else if (message is PatchEventDefine.DownloadUpdate)
         {
@@ -111,7 +114,8 @@ public class PatchWindow : MonoBehaviour
             _slider.value = (float)msg.CurrentDownloadCount / msg.TotalDownloadCount;
             string currentSizeMB = (msg.CurrentDownloadSizeBytes / 1048576f).ToString("f1");
             string totalSizeMB = (msg.TotalDownladSizeBytes / 1048576f).ToString("f1");
-            _tips.text = $"{msg.CurrentDownloadCount}/{msg.TotalDownloadCount} {currentSizeMB}MB/{totalSizeMB}MB";
+            _tips.text =
+                $"{msg.CurrentDownloadCount}/{msg.TotalDownloadCount} {currentSizeMB}MB/{totalSizeMB}MB";
         }
         else if (message is PatchEventDefine.PackageVersionRequestFailed)
         {
@@ -119,7 +123,10 @@ public class PatchWindow : MonoBehaviour
             {
                 UserEventDefine.UserTryRequestPackageVersion.SendEventMessage();
             };
-            ShowMessageBox($"Failed to request package version, please check the network status.", callback);
+            ShowMessageBox(
+                $"Failed to request package version, please check the network status.",
+                callback
+            );
         }
         else if (message is PatchEventDefine.PackageManifestUpdateFailed)
         {
@@ -127,7 +134,10 @@ public class PatchWindow : MonoBehaviour
             {
                 UserEventDefine.UserTryUpdatePackageManifest.SendEventMessage();
             };
-            ShowMessageBox($"Failed to update patch manifest, please check the network status.", callback);
+            ShowMessageBox(
+                $"Failed to update patch manifest, please check the network status.",
+                callback
+            );
         }
         else if (message is PatchEventDefine.WebFileDownloadFailed)
         {
