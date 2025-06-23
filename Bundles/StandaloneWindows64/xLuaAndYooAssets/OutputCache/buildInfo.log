@@ -1,34 +1,19 @@
-﻿2025-06-07 14:20:14.383 [INFO] Begin to build package : xLuaAndYooAssets by BuiltinBuildPipeline
-2025-06-07 14:20:14.383 [INFO] --------------------------------------------->TaskPrepare<--------------------------------------------
-2025-06-07 14:20:14.384 [WARN] [ErrorCode130] Starting with UnityEngine2021, recommend use script build pipeline (SBP) !
-2025-06-07 14:20:14.385 [INFO] TaskPrepare It takes 0 seconds in total
-2025-06-07 14:20:14.385 [INFO] --------------------------------------------->TaskGetBuildMap<--------------------------------------------
-2025-06-07 14:20:30.425 [INFO] TaskGetBuildMap It takes 16 seconds in total
-2025-06-07 14:20:30.426 [INFO] --------------------------------------------->TaskBuilding<--------------------------------------------
-2025-06-07 14:21:03.932 [INFO] UnityEngine build success !
-2025-06-07 14:21:03.932 [INFO] TaskBuilding It takes 33 seconds in total
-2025-06-07 14:21:03.932 [INFO] --------------------------------------------->TaskVerifyBuildResult<--------------------------------------------
-2025-06-07 14:21:03.934 [INFO] Build results verify success!
-2025-06-07 14:21:03.934 [INFO] TaskVerifyBuildResult It takes 0 seconds in total
-2025-06-07 14:21:03.934 [INFO] --------------------------------------------->TaskEncryption<--------------------------------------------
-2025-06-07 14:21:03.934 [INFO] TaskEncryption It takes 0 seconds in total
-2025-06-07 14:21:03.934 [INFO] --------------------------------------------->TaskUpdateBundleInfo<--------------------------------------------
-2025-06-07 14:21:04.012 [INFO] TaskUpdateBundleInfo It takes 0 seconds in total
-2025-06-07 14:21:04.012 [INFO] --------------------------------------------->TaskCreateManifest<--------------------------------------------
-2025-06-07 14:21:04.020 [INFO] Create package manifest file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-07-860/xLuaAndYooAssets_2025-06-07-860.json
-2025-06-07 14:21:04.043 [INFO] Create package manifest file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-07-860/xLuaAndYooAssets_2025-06-07-860.bytes
-2025-06-07 14:21:04.044 [INFO] Create package manifest hash file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-07-860/xLuaAndYooAssets_2025-06-07-860.hash
-2025-06-07 14:21:04.044 [INFO] Create package manifest version file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-07-860/xLuaAndYooAssets.version
-2025-06-07 14:21:04.048 [INFO] TaskCreateManifest It takes 0 seconds in total
-2025-06-07 14:21:04.048 [INFO] --------------------------------------------->TaskCreateReport<--------------------------------------------
-2025-06-07 14:21:04.059 [INFO] Create build report file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-07-860/xLuaAndYooAssets_2025-06-07-860.report
-2025-06-07 14:21:04.060 [INFO] TaskCreateReport It takes 0 seconds in total
-2025-06-07 14:21:04.060 [INFO] --------------------------------------------->TaskCreatePackage<--------------------------------------------
-2025-06-07 14:21:04.060 [INFO] Start making patch package: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-07-860
-2025-06-07 14:21:04.078 [INFO] TaskCreatePackage It takes 0 seconds in total
-2025-06-07 14:21:04.078 [INFO] --------------------------------------------->TaskCopyBuildinFiles<--------------------------------------------
-2025-06-07 14:21:04.078 [INFO] TaskCopyBuildinFiles It takes 0 seconds in total
-2025-06-07 14:21:04.078 [INFO] --------------------------------------------->TaskCreateCatalog<--------------------------------------------
-2025-06-07 14:21:04.079 [INFO] TaskCreateCatalog It takes 0 seconds in total
-2025-06-07 14:21:04.079 [INFO] Total build process time: 49 seconds
-2025-06-07 14:21:04.079 [INFO] Resource pipeline build success
+﻿2025-06-11 22:12:38.399 [INFO] Begin to build package : xLuaAndYooAssets by BuiltinBuildPipeline
+2025-06-11 22:12:38.399 [INFO] --------------------------------------------->TaskPrepare<--------------------------------------------
+2025-06-11 22:12:38.400 [INFO] Delete package root directory: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets
+2025-06-11 22:12:38.401 [INFO] Create pipeline output directory: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache
+2025-06-11 22:12:38.401 [WARN] [ErrorCode130] Starting with UnityEngine2021, recommend use script build pipeline (SBP) !
+2025-06-11 22:12:38.402 [INFO] TaskPrepare It takes 0 seconds in total
+2025-06-11 22:12:38.402 [INFO] --------------------------------------------->TaskGetBuildMap<--------------------------------------------
+2025-06-11 22:12:39.504 [INFO] Total build process time: 0 seconds
+2025-06-11 22:12:39.504 [ERROR] BuiltinBuildPipeline build failed !
+2025-06-11 22:12:39.504 [ERROR] An error occurred in build task TaskGetBuildMap_BBP
+2025-06-11 22:12:39.505 [ERROR] System.Exception: The address is existed : SM_Env_Port_Wall_Corner_01 
+AssetPath:
+     Assets/GameResources/Resource/Art/Models/SM_Env_Port_Wall_Corner_01.fbx
+     Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab
+  at YooAsset.Editor.AssetBundleCollectorPackage.GetCollectAssets (YooAsset.Editor.CollectCommand command) [0x00127] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleCollector\AssetBundleCollectorPackage.cs:136 
+  at YooAsset.Editor.AssetBundleCollectorSetting.BeginCollect (System.String packageName, System.Boolean simulateBuild, System.Boolean useAssetDependencyDB) [0x0007f] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleCollector\AssetBundleCollectorSetting.cs:119 
+  at YooAsset.Editor.TaskGetBuildMap.CreateBuildMap (System.Boolean simulateBuild, YooAsset.Editor.BuildParameters buildParameters) [0x0001f] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskGetBuildMap.cs:27 
+  at YooAsset.Editor.TaskGetBuildMap_BBP.YooAsset.Editor.IBuildTask.Run (YooAsset.Editor.BuildContext context) [0x00007] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskGetBuildMap_BBP.cs:15 
+  at YooAsset.Editor.BuildRunner.Run (System.Collections.Generic.List`1[T] pipeline, YooAsset.Editor.BuildContext context) [0x00073] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleBuilder\BuildSystem\BuildRunner.cs:41 

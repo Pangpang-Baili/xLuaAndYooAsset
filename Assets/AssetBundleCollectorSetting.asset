@@ -18,7 +18,7 @@ MonoBehaviour:
   Packages:
   - PackageName: xLuaAndYooAssets
     PackageDesc: "xLua\u6D4B\u8BD5"
-    EnableAddressable: 0
+    EnableAddressable: 1
     LocationToLower: 0
     IncludeAssetGUID: 0
     AutoCollectShaders: 1
@@ -133,6 +133,19 @@ MonoBehaviour:
       Collectors:
       - CollectPath: Assets/Scenes
         CollectorGUID: 36f8735ec8567a148b8771606b42fc09
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Animation
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameResources/Resource/Animations
+        CollectorGUID: 6953051525291874182f70adf8f41424
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory
