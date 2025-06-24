@@ -54,6 +54,10 @@ public class GameLanch : MonoSingleton<GameLanch>
         }
 
         SceneEventDefine.ChangeScene.SendEventMessage("MainScene");
+
+        //Test
+        Sprite testSp = ResourceManager.Instance.LoadAsset<Sprite>("Resource/UIPanelArt/LOGO.png");
+        Debug.Log($"Test Sprite: {testSp}");
     }
 
 

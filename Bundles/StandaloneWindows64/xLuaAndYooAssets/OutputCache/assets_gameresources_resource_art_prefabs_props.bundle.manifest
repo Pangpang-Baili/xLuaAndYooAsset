@@ -1,0 +1,99 @@
+ManifestFileVersion: 0
+CRC: 937975256
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8a7f46654d2e70ca3823c5bdd1564683
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71fae6ce9612b55492988b7c6597434c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_AmmoBox_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Slatbox_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Cinderblock_Wall_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Trable_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Spotlight_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Paper_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrel_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Can_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrier_04.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Papers_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_MissileStack_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Crate_Large_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Pallet_Loaded_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Iron_Sheet_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Target_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Crate_Small_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Generator_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_Post_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_WireFence_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BaseWall_Broken_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Pills_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BaseWall_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Wirespool_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Benchpress_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Iron_Sheet_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Transformer_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_TankTrap_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Papers_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrier_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_Window_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Needle_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Propane_Tall_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Portaloo_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrel_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Propane_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Cinderblock_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_Half_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_WoodPlank_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Bandage_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Wirespool_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Container_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BaseWall_Broken_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Iron_Sheet_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Bottle_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Tire_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BaseWall_Post_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_GuardTower_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_MedicalBox_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_Door_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrier_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Container_Small_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Crate_Medical_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barrier_Dirt_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Pallet_Loaded_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_PalletStack_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Barricade_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Paper_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_TireStack_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Crate_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Gauze_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_BunkBed_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_RadioTower_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Pallet_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Can_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_WireFence_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Rubbish_Papers_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_Range_Wall_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Props/SM_Prop_EmergencyDrop_Crate_01.prefab
+Dependencies:
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials_alts.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_models.bundle

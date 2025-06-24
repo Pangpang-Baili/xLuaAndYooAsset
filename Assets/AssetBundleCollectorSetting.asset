@@ -18,7 +18,7 @@ MonoBehaviour:
   Packages:
   - PackageName: xLuaAndYooAssets
     PackageDesc: "xLua\u6D4B\u8BD5"
-    EnableAddressable: 1
+    EnableAddressable: 0
     LocationToLower: 0
     IncludeAssetGUID: 0
     AutoCollectShaders: 1

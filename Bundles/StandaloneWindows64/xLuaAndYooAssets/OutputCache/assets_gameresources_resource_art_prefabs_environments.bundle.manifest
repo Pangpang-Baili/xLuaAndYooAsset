@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 699151119
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c5b66d737fb18dfa6ebe8d48ab4fd9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71fae6ce9612b55492988b7c6597434c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rock_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_Broken_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Dock_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Circle_2.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_Staight_2.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Corner_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pebbles_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_DirtRoad_Straight_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rock_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Boat_Tie_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_Support_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Beach_Staight_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_DirtRoad_End_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Circle_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Grass_Square_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Dock_Poles_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_2.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Bridge_2.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Concrete_Slab_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pebbles_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pile_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_T_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Pile_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_Damaged_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Rubble_Plank_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Concrete_Base_1.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Road_Straight_End_01.prefab
+Dependencies:
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_models.bundle

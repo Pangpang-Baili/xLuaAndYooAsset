@@ -1,19 +1,51 @@
-﻿2025-06-11 22:12:38.399 [INFO] Begin to build package : xLuaAndYooAssets by BuiltinBuildPipeline
-2025-06-11 22:12:38.399 [INFO] --------------------------------------------->TaskPrepare<--------------------------------------------
-2025-06-11 22:12:38.400 [INFO] Delete package root directory: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets
-2025-06-11 22:12:38.401 [INFO] Create pipeline output directory: E:/Unity/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache
-2025-06-11 22:12:38.401 [WARN] [ErrorCode130] Starting with UnityEngine2021, recommend use script build pipeline (SBP) !
-2025-06-11 22:12:38.402 [INFO] TaskPrepare It takes 0 seconds in total
-2025-06-11 22:12:38.402 [INFO] --------------------------------------------->TaskGetBuildMap<--------------------------------------------
-2025-06-11 22:12:39.504 [INFO] Total build process time: 0 seconds
-2025-06-11 22:12:39.504 [ERROR] BuiltinBuildPipeline build failed !
-2025-06-11 22:12:39.504 [ERROR] An error occurred in build task TaskGetBuildMap_BBP
-2025-06-11 22:12:39.505 [ERROR] System.Exception: The address is existed : SM_Env_Port_Wall_Corner_01 
-AssetPath:
-     Assets/GameResources/Resource/Art/Models/SM_Env_Port_Wall_Corner_01.fbx
-     Assets/GameResources/Resource/Art/Prefabs/Environments/SM_Env_Port_Wall_Corner_01.prefab
-  at YooAsset.Editor.AssetBundleCollectorPackage.GetCollectAssets (YooAsset.Editor.CollectCommand command) [0x00127] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleCollector\AssetBundleCollectorPackage.cs:136 
-  at YooAsset.Editor.AssetBundleCollectorSetting.BeginCollect (System.String packageName, System.Boolean simulateBuild, System.Boolean useAssetDependencyDB) [0x0007f] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleCollector\AssetBundleCollectorSetting.cs:119 
-  at YooAsset.Editor.TaskGetBuildMap.CreateBuildMap (System.Boolean simulateBuild, YooAsset.Editor.BuildParameters buildParameters) [0x0001f] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleBuilder\BuildPipeline\BaseTasks\TaskGetBuildMap.cs:27 
-  at YooAsset.Editor.TaskGetBuildMap_BBP.YooAsset.Editor.IBuildTask.Run (YooAsset.Editor.BuildContext context) [0x00007] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleBuilder\BuildPipeline\BuiltinBuildPipeline\BuildTasks\TaskGetBuildMap_BBP.cs:15 
-  at YooAsset.Editor.BuildRunner.Run (System.Collections.Generic.List`1[T] pipeline, YooAsset.Editor.BuildContext context) [0x00073] in E:\Unity\xLuaAndYooAsset\Library\PackageCache\com.tuyoogame.yooasset@2.3.9\Editor\AssetBundleBuilder\BuildSystem\BuildRunner.cs:41 
+﻿2025-06-24 11:07:13.344 [INFO] Begin to build package : xLuaAndYooAssets by BuiltinBuildPipeline
+2025-06-24 11:07:13.345 [INFO] --------------------------------------------->TaskPrepare<--------------------------------------------
+2025-06-24 11:07:13.347 [WARN] [ErrorCode130] Starting with UnityEngine2021, recommend use script build pipeline (SBP) !
+2025-06-24 11:07:13.347 [INFO] TaskPrepare It takes 0 seconds in total
+2025-06-24 11:07:13.347 [INFO] --------------------------------------------->TaskGetBuildMap<--------------------------------------------
+2025-06-24 11:07:14.565 [INFO] TaskGetBuildMap It takes 1 seconds in total
+2025-06-24 11:07:14.565 [INFO] --------------------------------------------->TaskBuilding<--------------------------------------------
+2025-06-24 11:07:14.740 [INFO] UnityEngine build success !
+2025-06-24 11:07:14.740 [INFO] TaskBuilding It takes 0 seconds in total
+2025-06-24 11:07:14.740 [INFO] --------------------------------------------->TaskVerifyBuildResult<--------------------------------------------
+2025-06-24 11:07:14.742 [INFO] Build results verify success!
+2025-06-24 11:07:14.742 [INFO] TaskVerifyBuildResult It takes 0 seconds in total
+2025-06-24 11:07:14.743 [INFO] --------------------------------------------->TaskEncryption<--------------------------------------------
+2025-06-24 11:07:14.745 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials_alts.bundle.encrypt
+2025-06-24 11:07:14.749 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials_fx.bundle.encrypt
+2025-06-24 11:07:14.751 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials.bundle.encrypt
+2025-06-24 11:07:14.768 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_models.bundle.encrypt
+2025-06-24 11:07:14.770 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_prefabs_buildings.bundle.encrypt
+2025-06-24 11:07:14.771 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_prefabs_environments.bundle.encrypt
+2025-06-24 11:07:14.772 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_prefabs_generic.bundle.encrypt
+2025-06-24 11:07:14.774 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_prefabs_props.bundle.encrypt
+2025-06-24 11:07:14.776 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_prefabs_vehicles.bundle.encrypt
+2025-06-24 11:07:14.777 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_prefabs_weapons.bundle.encrypt
+2025-06-24 11:07:14.781 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_textures.bundle.encrypt
+2025-06-24 11:07:14.783 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_textures_weapons.bundle.encrypt
+2025-06-24 11:07:14.785 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_uisprite_atlas_icon.bundle.encrypt
+2025-06-24 11:07:14.787 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_uispriteatlas.bundle.encrypt
+2025-06-24 11:07:14.794 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_uipanelart.bundle.encrypt
+2025-06-24 11:07:14.795 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_uifont.bundle.encrypt
+2025-06-24 11:07:14.796 [INFO] Bundle file encryption complete: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_animations.bundle.encrypt
+2025-06-24 11:07:14.797 [INFO] TaskEncryption It takes 0 seconds in total
+2025-06-24 11:07:14.797 [INFO] --------------------------------------------->TaskUpdateBundleInfo<--------------------------------------------
+2025-06-24 11:07:14.917 [INFO] TaskUpdateBundleInfo It takes 0 seconds in total
+2025-06-24 11:07:14.917 [INFO] --------------------------------------------->TaskCreateManifest<--------------------------------------------
+2025-06-24 11:07:14.930 [INFO] Create package manifest file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-24-667/xLuaAndYooAssets_2025-06-24-667.json
+2025-06-24 11:07:14.953 [INFO] Create package manifest file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-24-667/xLuaAndYooAssets_2025-06-24-667.bytes
+2025-06-24 11:07:14.954 [INFO] Create package manifest hash file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-24-667/xLuaAndYooAssets_2025-06-24-667.hash
+2025-06-24 11:07:14.954 [INFO] Create package manifest version file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-24-667/xLuaAndYooAssets.version
+2025-06-24 11:07:14.957 [INFO] TaskCreateManifest It takes 0 seconds in total
+2025-06-24 11:07:14.958 [INFO] --------------------------------------------->TaskCreateReport<--------------------------------------------
+2025-06-24 11:07:14.972 [INFO] Create build report file: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-24-667/xLuaAndYooAssets_2025-06-24-667.report
+2025-06-24 11:07:14.972 [INFO] TaskCreateReport It takes 0 seconds in total
+2025-06-24 11:07:14.972 [INFO] --------------------------------------------->TaskCreatePackage<--------------------------------------------
+2025-06-24 11:07:14.973 [INFO] Start making patch package: H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/2025-06-24-667
+2025-06-24 11:07:14.994 [INFO] TaskCreatePackage It takes 0 seconds in total
+2025-06-24 11:07:14.995 [INFO] --------------------------------------------->TaskCopyBuildinFiles<--------------------------------------------
+2025-06-24 11:07:14.995 [INFO] TaskCopyBuildinFiles It takes 0 seconds in total
+2025-06-24 11:07:14.995 [INFO] --------------------------------------------->TaskCreateCatalog<--------------------------------------------
+2025-06-24 11:07:14.995 [INFO] TaskCreateCatalog It takes 0 seconds in total
+2025-06-24 11:07:14.995 [INFO] Total build process time: 1 seconds
+2025-06-24 11:07:14.995 [INFO] Resource pipeline build success

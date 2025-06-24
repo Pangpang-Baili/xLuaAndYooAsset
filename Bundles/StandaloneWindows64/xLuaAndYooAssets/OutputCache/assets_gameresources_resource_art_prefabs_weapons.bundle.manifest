@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3294538777
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e1117d2c6c90abbaec5280b78a56d5a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71fae6ce9612b55492988b7c6597434c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Pistol_Heavy_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Rifle_Assault_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Rifle_Assault_02.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Rifle_Assault_04.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Pan_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Sniper_Heavy_01.prefab
+- Assets/GameResources/Resource/Art/Prefabs/Weapons/SM_Wep_Grenade_Launcher_01.prefab
+Dependencies:
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_materials.bundle
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_art_models.bundle

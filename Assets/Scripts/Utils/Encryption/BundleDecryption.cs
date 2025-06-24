@@ -100,6 +100,6 @@ public class FileOffsetDecryption : IDecryptionServices
     /// <returns>偏移字节数</returns>
     private static ulong GetFileOffset()
     {
-        return 64;
+        return 32;
     }
 }

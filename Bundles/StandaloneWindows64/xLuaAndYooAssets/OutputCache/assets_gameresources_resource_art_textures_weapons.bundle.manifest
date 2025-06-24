@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3905667722
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf1bea0b1b05f260b4a2258c3e245e64
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/Art/Textures/Weapons/Wep_Skin_01.png
+Dependencies: []

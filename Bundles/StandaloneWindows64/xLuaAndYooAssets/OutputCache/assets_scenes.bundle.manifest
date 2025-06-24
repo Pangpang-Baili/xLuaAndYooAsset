@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 2896739929
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8dc3ed9bce4745c34d44e7544244221b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7a486cc59a2b76759f3b2a672c0502c1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6c075d6771c642742b8041ea5a3f6648, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scenes/Init.unity
+Dependencies: []

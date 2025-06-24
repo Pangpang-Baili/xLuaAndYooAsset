@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3382070724
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eeabfb1f297f0fc04774ef363d92f14d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ba740a701dfcd3eaa22374d723b44054
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameResources/Resource/UISpriteAtlas/atlas_icon.spriteatlas
+Dependencies:
+- H:/Unity/Demo/xLuaAndYooAsset/Bundles/StandaloneWindows64/xLuaAndYooAssets/OutputCache/assets_gameresources_resource_uisprite_atlas_icon.bundle

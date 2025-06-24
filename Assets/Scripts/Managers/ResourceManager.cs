@@ -23,13 +23,13 @@ public class ResourceManager : MonoSingleton<ResourceManager>
     }
 
     #region 资源加载
-    public GameObject LoadAsset(string location)
+    public T LoadAsset<T>(string location) where T : UObject
     {
         if (AppConst.PlayMode == EPlayMode.EditorSimulateMode)
         {
 #if UNITY_EDITOR
             string path = "Assets/GameResources/" + location;
-            GameObject asset = AssetDatabase.LoadAssetAtPath<GameObject>(path);
+            T asset = AssetDatabase.LoadAssetAtPath<T>(path);
             if (asset == null)
             {
                 Debug.LogError($"资源不存在：{path}");
@@ -48,15 +48,16 @@ public class ResourceManager : MonoSingleton<ResourceManager>
                 return null;
             }
 
-            AssetHandle assetHandle = YooAssets.LoadAssetSync<GameObject>(loadPath);
+            AssetHandle assetHandle = YooAssets.LoadAssetSync<T>(loadPath);
             if (assetHandle == null || !assetHandle.IsValid)
             {
                 Debug.LogError($"加载资源失败：{loadPath}");
                 return null;
             }
 
-            return assetHandle.AssetObject as GameObject;
+            return assetHandle.AssetObject as T;
         }
+
     }
 
     public TextAsset LoadFile(string filePath)

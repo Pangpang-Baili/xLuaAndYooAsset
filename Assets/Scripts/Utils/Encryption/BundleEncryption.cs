@@ -13,7 +13,8 @@ public class FileStreamEncryption : IEncryptionServices
     //对传入文件数据进行加密操作
     public EncryptResult Encrypt(EncryptFileInfo fileInfo)
     {
-        if (fileInfo.BundleName.Contains("_image"))
+        // 检查文件名是否包含"_resource_"，仅对资源包文件进行加密 需要注意的是必须是assetbundle文件整个路径是这样的assets_gameresources_resource_uifont.bundle
+        if (fileInfo.BundleName.Contains("_resource_"))
         {
             var fileData = File.ReadAllBytes(fileInfo.FileLoadPath);
             for (int i = 0; i < fileData.Length; i++)
@@ -37,12 +38,18 @@ public class FileStreamEncryption : IEncryptionServices
 
 }
 
+/// <summary>
+/// 文件偏移加密方式：在资源文件开头添加固定字节偏移量
+/// 注意：这种方式仅适用于资源包文件，且需要在加载时跳过
+/// </summary>
 public class FileOffsetEncrypt : IEncryptionServices
 {
     public EncryptResult Encrypt(EncryptFileInfo fileInfo)
     {
-        if (fileInfo.BundleName.Contains("_image"))
+        // 检查文件名是否包含"_resource_"，仅对资源包文件进行加密 需要注意的是必须是assetbundle文件整个路径是这样的assets_gameresources_resource_uifont.bundle
+        if (fileInfo.BundleName.Contains("_resource_"))
         {
+            Debug.Log("FileOffsetEncrypt: " + fileInfo.BundleName);
             int offset = 32;
             byte[] fileData = File.ReadAllBytes(fileInfo.FileLoadPath);
             var encryptedData = new byte[fileData.Length + offset];
