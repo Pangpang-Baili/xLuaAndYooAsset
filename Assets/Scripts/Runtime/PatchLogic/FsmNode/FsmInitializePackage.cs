@@ -63,7 +63,7 @@ public class FsmInitializePackage : IStateNode
             string fallbackHostServer = GetHostServerURL(packageName);
             IRemoteServices remoteServices = new RemoteServices(defaultHostServer, fallbackHostServer);
             var initParameters = new HostPlayModeParameters();
-            var decryption = new FileOffsetDecryption();
+            var decryption = new AESBundleDecryption();
             initParameters.BuildinFileSystemParameters = FileSystemParameters.CreateDefaultBuildinFileSystemParameters();
             initParameters.CacheFileSystemParameters = FileSystemParameters.CreateDefaultCacheFileSystemParameters(remoteServices, decryption);
             initializationOperation = package.InitializeAsync(initParameters);

@@ -1,0 +1,99 @@
+ManifestFileVersion: 0
+CRC: 1053245091
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_gameresources_game.bundle
+      Dependencies: {}
+    Info_1:
+      Name: assets_gameresources_game_manager.bundle
+      Dependencies: {}
+    Info_2:
+      Name: assets_gameresources_resource_art_materials_alts.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_textures.bundle
+    Info_3:
+      Name: assets_gameresources_resource_art_materials_fx.bundle
+      Dependencies: {}
+    Info_4:
+      Name: assets_gameresources_resource_art_materials.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_textures.bundle
+        Dependency_1: assets_gameresources_resource_art_textures_weapons.bundle
+    Info_5:
+      Name: assets_gameresources_resource_art_models.bundle
+      Dependencies: {}
+    Info_6:
+      Name: assets_gameresources_resource_art_prefabs_buildings.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_materials.bundle
+        Dependency_1: assets_gameresources_resource_art_models.bundle
+    Info_7:
+      Name: assets_gameresources_resource_art_prefabs_environments.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_materials.bundle
+        Dependency_1: assets_gameresources_resource_art_models.bundle
+    Info_8:
+      Name: assets_gameresources_resource_art_prefabs_generic.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_materials.bundle
+        Dependency_1: assets_gameresources_resource_art_models.bundle
+    Info_9:
+      Name: assets_gameresources_resource_art_prefabs_props.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_materials_alts.bundle
+        Dependency_1: assets_gameresources_resource_art_materials.bundle
+        Dependency_2: assets_gameresources_resource_art_models.bundle
+    Info_10:
+      Name: assets_gameresources_resource_art_prefabs_vehicles.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_materials_alts.bundle
+        Dependency_1: assets_gameresources_resource_art_materials.bundle
+        Dependency_2: assets_gameresources_resource_art_models.bundle
+    Info_11:
+      Name: assets_gameresources_resource_art_prefabs_weapons.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_materials.bundle
+        Dependency_1: assets_gameresources_resource_art_models.bundle
+    Info_12:
+      Name: assets_gameresources_resource_art_textures.bundle
+      Dependencies: {}
+    Info_13:
+      Name: assets_gameresources_resource_art_textures_weapons.bundle
+      Dependencies: {}
+    Info_14:
+      Name: assets_gameresources_resource_uisprite_atlas_icon.bundle
+      Dependencies: {}
+    Info_15:
+      Name: assets_gameresources_resource_uispriteatlas.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_uisprite_atlas_icon.bundle
+    Info_16:
+      Name: assets_gameresources_resource_uipanelart.bundle
+      Dependencies: {}
+    Info_17:
+      Name: assets_gameresources_resource_uifont.bundle
+      Dependencies: {}
+    Info_18:
+      Name: assets_scenes.bundle
+      Dependencies: {}
+    Info_19:
+      Name: assets_scenes_mainscene_lightsetting.bundle
+      Dependencies: {}
+    Info_20:
+      Name: assets_scenes_mainscene.bundle
+      Dependencies:
+        Dependency_0: assets_gameresources_resource_art_materials_alts.bundle
+        Dependency_1: assets_gameresources_resource_art_materials_fx.bundle
+        Dependency_2: assets_gameresources_resource_art_materials.bundle
+        Dependency_3: assets_gameresources_resource_art_models.bundle
+        Dependency_4: assets_gameresources_resource_art_prefabs_buildings.bundle
+        Dependency_5: assets_gameresources_resource_art_prefabs_environments.bundle
+        Dependency_6: assets_gameresources_resource_art_prefabs_generic.bundle
+        Dependency_7: assets_gameresources_resource_art_prefabs_props.bundle
+        Dependency_8: assets_gameresources_resource_art_prefabs_vehicles.bundle
+        Dependency_9: assets_gameresources_resource_art_prefabs_weapons.bundle
+        Dependency_10: assets_scenes_mainscene_lightsetting.bundle
+    Info_21:
+      Name: assets_gameresources_resource_animations.bundle
+      Dependencies: {}
